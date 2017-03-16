@@ -13,6 +13,7 @@
 		D0031A061E7A56A500B5E885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0031A041E7A56A500B5E885 /* Main.storyboard */; };
 		D0031A081E7A56A500B5E885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0031A071E7A56A500B5E885 /* Assets.xcassets */; };
 		D0031A0B1E7A56A500B5E885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0031A091E7A56A500B5E885 /* LaunchScreen.storyboard */; };
+		D0031A151E7A56E300B5E885 /* FFTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0031A141E7A56E300B5E885 /* FFTagsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D0031A071E7A56A500B5E885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0031A0A1E7A56A500B5E885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0031A0C1E7A56A500B5E885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0031A131E7A56E300B5E885 /* FFTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTagsView.h; sourceTree = "<group>"; };
+		D0031A141E7A56E300B5E885 /* FFTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTagsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		D00319FA1E7A56A500B5E885 /* TagsView */ = {
 			isa = PBXGroup;
 			children = (
+				D0031A121E7A56E300B5E885 /* FFTagsView */,
 				D00319FE1E7A56A500B5E885 /* AppDelegate.h */,
 				D00319FF1E7A56A500B5E885 /* AppDelegate.m */,
 				D0031A011E7A56A500B5E885 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				D00319FC1E7A56A500B5E885 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0031A121E7A56E300B5E885 /* FFTagsView */ = {
+			isa = PBXGroup;
+			children = (
+				D0031A131E7A56E300B5E885 /* FFTagsView.h */,
+				D0031A141E7A56E300B5E885 /* FFTagsView.m */,
+			);
+			path = FFTagsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0031A031E7A56A500B5E885 /* ViewController.m in Sources */,
+				D0031A151E7A56E300B5E885 /* FFTagsView.m in Sources */,
 				D0031A001E7A56A500B5E885 /* AppDelegate.m in Sources */,
 				D00319FD1E7A56A500B5E885 /* main.m in Sources */,
 			);
